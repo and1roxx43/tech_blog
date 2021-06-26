@@ -1,24 +1,26 @@
-<div class="login-page">
-    <div class="form-heading">
+<section class="login-page">
+    <section class="form-heading">
         <h1>Log In</h1>
-    </div>
-    <div class="form form-section">
+    </section>
+    <section class="form form-section">
         <form class="form login-form">
-            <div>
+            <section class="user-input">
                 <label for="username">Username</label>
-                <input type="text" class="entry-field" id="username" />
-            </div>
-            <div>
+                <input type="text" class="entry-field" id="username" autocomplete="off" />
+            </section>
+            <section class="user-input">
                 <label for="password">Password</label>
                 <input type="password" class="entry-field" id="password" />
-            </div>
-            <div>
-                <button type="submit" class="login-btn">Log In</button>
-            </div>
+            </section>
+            <section class="user-input">
+                <button type="submit" class="login-btn btn">Log In</button>
+            </section>
         </form>
-    </div>
-
-    <a href="/signup" class="signup">sign up instead</a>
-</div>
+    </section>
+    <section id="signup">
+        <a href="/signup" class="signup">sign up instead</a>
+    </section>
+    
+</section>
 
 <script src="/script/login.js"></script>

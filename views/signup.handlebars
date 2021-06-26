@@ -1,24 +1,26 @@
-<section class="signup-page">
+<div class="signup-page">
     <div class="form-heading">
         <h1>Sign Up</h1>
     </div>
-    <div class="form-section">
-        <form class="signup-form">
-            <div>
-                <label for="user-signup">Select a Username</label>
-                <input type="text" class="entry-field" id="user-signup" />
+    <div class="form form-section">
+        <form class="form signup-form">
+            <div class="user-input">
+                <label for="username">Username</label>
+                <input type="text" class="entry-field" id="username" autocomplete="off" placeholder="ENTER A USERNAME"/>
             </div>
-            <div>
-                <label for="password-signup">Select a password</label>
-                <input type="password" class="entry-field" id="password-signup" />
+            <div class="user-input">
+                <label for="password">password</label>
+                <input type="password" class="entry-field" id="password" placeholder="ENTER A PASSWORD" />
             </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Sign Up!</button>
+            <div class="user-input">
+                <button type="submit" class="signup-btn btn">Sign Up!</button>
             </div>
         </form>
     </div>
-
-    <a href="/login" class="login-link">log in instead</a>
-</section>
+    <div id="login">
+        <a href="/login" class="login">log in instead</a>
+    </div>
+    
+</div>
 
 <script src="/script/signup.js"></script>
