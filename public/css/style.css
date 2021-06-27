@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 :root {
-    --bg-color-theme: #351616;
+    --bg-color-theme: #413539;
     --fg-color-theme: #eee4e4;
+    --dashboard-color: #CEC5C5;
     --btn-bg-color: #798a9b;
     --btn-hover: #536374;
 }
@@ -22,6 +23,7 @@ body {
 header {
     background-color: var(--bg-color-theme);
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 nav ul{
@@ -130,7 +132,7 @@ nav h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .title-section, .post-content {
@@ -167,4 +169,77 @@ nav h1 {
 
 .btn-post {
     width: 20%;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dashboard-post li {
+    list-style: none;
+    padding: 30px;
+    margin: 10px;
+}
+
+.dashboard-container h2 {
+    font-size: 1.9rem;
+    color: #797474;
+    text-align: center;
+}
+
+.edit-post {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--btn-bg-color);
+    margin-top: 50px;
+}
+
+.edit-post:hover {
+    color: var(--btn-hover);
+}
+
+.post-container {
+    border: 3px solid var(--bg-color-theme);
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--bg-color-theme);
+    color: var(--fg-color-theme);
+}
+
+.post-title a{
+    color: var(--fg-color-theme);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.content-container {
+    font-size: 1.8rem;
+    padding: 30px;
+}
+
+.edit-post-btn, .delete-post-btn {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: var(--fg-color-theme);
+    border: none;
+    outline: none;
+    border-radius: 5px;  
+    margin: 20px 0 0 10px;
+}
+
+.edit-post-btn {
+    background-color: #576272;
+}
+
+.delete-post-btn {
+    background-color: red;
 }

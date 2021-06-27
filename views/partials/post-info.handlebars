@@ -1,19 +1,19 @@
 <article class="post">
-    <section class="whole-post">
-        <section class="info-section">
-            <section class="post-name">
-                <a href="/post/{{id}}" class="links">{{title}}</a>
+    <section class="post-container">
+        <section class="title-container">
+            <section class="post-title">
+                <a href="/post/{{id}}" class="title-links">{{title}}</a>
             </section>
             <section class="created-by">
                 <p id="comment-subtitle">
-                    Posted by <strong>{{user.usernane}}</strong> on <strong>{{formatDate created_at}}</strong>
+                    Posted by <span>{{user.username}}</span> on <span>{{formatDate created_at}}</span>
                 </p>
             </section>
-            <section class="content-section">
+        </section>
+
+            <section class="content-container">
                 <p>{{content}}</p>
             </section>
-
-        </section>
 
     </section>
 </article>
