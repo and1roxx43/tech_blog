@@ -230,7 +230,7 @@ textarea {
     padding: 30px;
 }
 
-.edit-post-btn, .delete-post-btn {
+.edit-post-btn, .delete-post-btn, .btn-comment {
     padding: 10px 20px;
     font-size: 1.5rem;
     color: var(--fg-color-theme);
@@ -240,7 +240,7 @@ textarea {
     margin: 20px 0 0 10px;
 }
 
-.edit-post-btn {
+.edit-post-btn, .btn-comment {
     background-color: #576272;
 }
 
