@@ -68,8 +68,8 @@ ___
 <img width="2042" alt="Tech-blog-login" src="https://user-images.githubusercontent.com/14179472/123545938-fe3a4100-d79d-11eb-80e0-72071f95ea8f.png">
 <img width="2042" alt="Tech-blog-createPost" src="https://user-images.githubusercontent.com/14179472/123545949-0abe9980-d79e-11eb-857b-cce2e48f4f1f.png">
 <img width="2041" alt="Tech-blog-PostCreated" src="https://user-images.githubusercontent.com/14179472/123545953-10b47a80-d79e-11eb-82d6-200a3f1c3833.png">
-<img width="2036" alt="Tech-blog-edit-deletePost" src="https://user-images.githubusercontent.com/14179472/123545959-14e09800-d79e-11eb-9acc-6b3a56adbc20.png">
-<img width="2037" alt="Tech-blog-comment" src="https://user-images.githubusercontent.com/14179472/123545963-19a54c00-d79e-11eb-9bc8-2bd3ca456ca5.png">
+<img width="2038" alt="Tech-blog-edit-deletePost" src="https://user-images.githubusercontent.com/14179472/123546139-bb2c9d80-d79e-11eb-86e4-8a59aa95a486.png">
+<img width="2034" alt="Tech-blog-comment" src="https://user-images.githubusercontent.com/14179472/123546147-bff15180-d79e-11eb-961a-88eb59223b81.png">
 
 ## URL
  - GITHUB: https://github.com/and1roxx43/tech_blog
