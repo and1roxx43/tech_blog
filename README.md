@@ -73,4 +73,4 @@ ___
 
 ## URL
  - GITHUB: https://github.com/and1roxx43/tech_blog
- - HEROKU: 
+ - HEROKU: https://frozen-depths-90859.herokuapp.com/
